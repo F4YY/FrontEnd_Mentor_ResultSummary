@@ -49,15 +49,7 @@ export const ResultSummary = () => {
                   icon={data.icon}
                   color={data.color}
                   background={data.background}
-                >
-                  <img src={require(`${data.icon}`)} alt={data.icon}/>
-                  <p>
-                     {data.category}
-                  </p>
-                  <p>
-                    {data.score}/100
-                  </p>
-                </Resultsuminfo>
+                />
               )}
               <Styledbutton>
                 Continue
